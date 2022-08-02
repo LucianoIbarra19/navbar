@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: serif;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: royalblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+    opacity: 60%;
+}
+
+.navbar ul{
+    list-style: none;
+    display: inline-flex;
+    padding-right: 25px;
+}
+
+.navbar a{
+    padding-right: 15px;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    color:white;
+}
